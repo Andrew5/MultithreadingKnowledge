@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MultithreadingKnowledge (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MultithreadingKnowledge (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MultithreadingKnowledge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MultithreadingKnowledge: a1e10bf354e8c64b32b5a91cadb4072e76014eb8
+
+PODFILE CHECKSUM: 0798a8522791e389bfa9e61d70a5eb1ecd442d6d
+
+COCOAPODS: 1.11.2

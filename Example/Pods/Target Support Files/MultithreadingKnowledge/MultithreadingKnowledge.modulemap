@@ -1,0 +1,6 @@
+framework module MultithreadingKnowledge {
+  umbrella header "MultithreadingKnowledge-umbrella.h"
+
+  export *
+  module * { export * }
+}
