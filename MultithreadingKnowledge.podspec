@@ -5,11 +5,11 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
-
+#pod spec lint --verbose --use-libraries --allow-warnings --sources='https://github.com/Andrew5/MultithreadingKnowledge.git,https://github.com/CocoaPods/Specs.git'
 Pod::Spec.new do |s|
   s.name             = 'MultithreadingKnowledge'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MultithreadingKnowledge.'
+  s.summary          = '多线程基础知识'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  学习多线程知识
                        DESC
 
   s.homepage         = 'https://github.com/localhost3585@gmail.com/MultithreadingKnowledge'

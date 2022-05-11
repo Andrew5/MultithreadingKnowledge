@@ -61,10 +61,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4C6E1836AFC88ED95E5534C /* Pods_MultithreadingKnowledge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultithreadingKnowledge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD19613EC54D0F2CCDFE9A35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD19613EC54D0F2CCDFE9A35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C2F770696A6EE04B82C835BA /* Pods-MultithreadingKnowledge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultithreadingKnowledge_Example.release.xcconfig"; path = "Target Support Files/Pods-MultithreadingKnowledge_Example/Pods-MultithreadingKnowledge_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D78203EBCFD65262AB3ACEDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ECD347060245718DFED40512 /* MultithreadingKnowledge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MultithreadingKnowledge.podspec; path = ../MultithreadingKnowledge.podspec; sourceTree = "<group>"; };
+		D78203EBCFD65262AB3ACEDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ECD347060245718DFED40512 /* MultithreadingKnowledge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultithreadingKnowledge.podspec; path = ../MultithreadingKnowledge.podspec; sourceTree = "<group>"; };
 		F1C985EA2CE9DDF1D85E341D /* Pods_MultithreadingKnowledge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultithreadingKnowledge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6CCDDBE39E9F73DB45541E /* Pods-MultithreadingKnowledge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultithreadingKnowledge_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MultithreadingKnowledge_Tests/Pods-MultithreadingKnowledge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				FD6CCDDBE39E9F73DB45541E /* Pods-MultithreadingKnowledge_Tests.debug.xcconfig */,
 				0F60EE0D9D5D34341EAAF9FC /* Pods-MultithreadingKnowledge_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +513,7 @@
 			baseConfigurationReference = 2120490E334E9026F1F4188E /* Pods-MultithreadingKnowledge_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultithreadingKnowledge/MultithreadingKnowledge-Prefix.pch";
 				INFOPLIST_FILE = "MultithreadingKnowledge/MultithreadingKnowledge-Info.plist";
@@ -529,6 +530,7 @@
 			baseConfigurationReference = C2F770696A6EE04B82C835BA /* Pods-MultithreadingKnowledge_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultithreadingKnowledge/MultithreadingKnowledge-Prefix.pch";
 				INFOPLIST_FILE = "MultithreadingKnowledge/MultithreadingKnowledge-Info.plist";
